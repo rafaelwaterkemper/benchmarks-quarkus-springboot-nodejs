@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dc8d277-403c-44a6-b2f9-641215889981" name="Default Changelist" comment="">
+    <list default="true" id="8dc8d277-403c-44a6-b2f9-641215889981" name="Default Changelist" comment="* Adjuste dependency to quarkus-resteasy-jsonb&#10;&#10;* Include setters for Person and Customer to be serialized for jsonb">
       <change beforePath="$PROJECT_DIR$/easyoffice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/easyoffice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/waterkcorp/easyoffice/resources/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/waterkcorp/easyoffice/resources/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/waterkcorp/easyoffice/resources/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/waterkcorp/easyoffice/resources/domain/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/waterkcorp/easyoffice/resources/domain/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="270">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#416#417#0" expanded="true" />
@@ -401,7 +398,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21029331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -530,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/waterkcorp/easyoffice/resources/domain/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="270">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
