@@ -19,6 +19,14 @@ public class Customer extends Person {
         return active;
     }
 
+    public void setServices(Set<String> services) {
+        this.services = services;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
     public static class Builder extends AbstractyEntityBuilder<Customer, Person.Builder> {
 
         public Builder(Customer entity) {
@@ -30,7 +38,7 @@ public class Customer extends Person {
             return this;
         }
 
-        public Builder active(boolean active){
+        public Builder active(boolean active) {
             entity.active = active;
             return this;
         }

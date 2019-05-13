@@ -1,5 +1,5 @@
 1
--1358139711
+-1356487263
 file:/home/rafael/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
 file:/home/rafael/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
 file:/home/rafael/.m2/repository/org/jboss/invocation/jboss-invocation/1.5.2.Final/jboss-invocation-1.5.2.Final.jar
@@ -18,3 +18,6 @@ file:/home/rafael/.m2/repository/io/quarkus/arc/arc-processor/0.14.0/arc-process
 file:/home/rafael/.m2/repository/io/quarkus/quarkus-arc-deployment/0.14.0/quarkus-arc-deployment-0.14.0.jar
 file:/home/rafael/.m2/repository/io/quarkus/quarkus-jaxb-deployment/0.14.0/quarkus-jaxb-deployment-0.14.0.jar
 file:/home/rafael/.m2/repository/io/quarkus/quarkus-resteasy-deployment/0.14.0/quarkus-resteasy-deployment-0.14.0.jar
+file:/home/rafael/.m2/repository/io/quarkus/quarkus-jsonp-deployment/0.14.0/quarkus-jsonp-deployment-0.14.0.jar
+file:/home/rafael/.m2/repository/io/quarkus/quarkus-jsonb-deployment/0.14.0/quarkus-jsonb-deployment-0.14.0.jar
+file:/home/rafael/.m2/repository/io/quarkus/quarkus-resteasy-jsonb-deployment/0.14.0/quarkus-resteasy-jsonb-deployment-0.14.0.jar
