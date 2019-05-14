@@ -4,11 +4,11 @@ let people = []
 
 class PersonController {
     
-    findAll (req, res) {
+    async findAll (req, res) {
         return res.json(people)
     }
     
-    create (req, res) {
+    async create (req, res) {
         let person = new Person(req.body.name, req.body.age, req.body.birthDate);
         people.push(person)
 
