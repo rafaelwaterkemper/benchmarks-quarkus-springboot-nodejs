@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:alpine
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
@@ -14,4 +14,4 @@ USER node
 
 EXPOSE 3333
 
-CMD [ "node", "server.js" ]
+CMD [ "node", "app/server.js" ]
