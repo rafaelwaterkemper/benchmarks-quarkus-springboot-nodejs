@@ -14,4 +14,4 @@ USER node
 
 EXPOSE 3333
 
-CMD [ "time", "node app/server.js" ]
+CMD [ "time", "node", "app/server.js" ]
