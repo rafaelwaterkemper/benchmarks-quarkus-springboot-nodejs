@@ -3,8 +3,12 @@ package com.watercorp.easyoffice.apis;
 import com.watercorp.easyoffice.domain.Person;
 import org.springframework.web.bind.annotation.*;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
+
+import static java.lang.String.format;
 
 @RestController("/person")
 public class PersonResource {
@@ -18,6 +22,8 @@ public class PersonResource {
 
     @GetMapping
     public Set<Person> list() {
+        System.out.println(format("GET /person %s", new SimpleDateFormat("HH:mm:ss.SSS").format(new Date(System.currentTimeMillis()))));
+
         return people;
     }
 

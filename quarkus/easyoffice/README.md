@@ -6,4 +6,4 @@ while [[ "$(curl -s -o /dev/null -w ''%{http_code}'' localhost:8080/person)" != 
 
 In a separate terminal, we start the timing application that we are testing, printing the time the application starts
 
-date +"%T.%3N" &&  java -jar ./target/easyoffice-0.0.1-SNAPSHOT.jar
+date +"%T.%3N" &&  ./target/easyoffice-1.0-SNAPSHOT-runner

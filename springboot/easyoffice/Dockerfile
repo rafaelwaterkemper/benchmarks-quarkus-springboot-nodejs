@@ -23,4 +23,4 @@ ARG JAR_FILE=target/easyoffice-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} easyoffice.jar
 
 # Run the jar file
-ENTRYPOINT ["time","java","-jar","./easyoffice.jar"]
+ENTRYPOINT ["java","-jar","./easyoffice.jar"]

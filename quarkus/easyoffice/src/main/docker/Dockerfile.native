@@ -7,7 +7,7 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/easyoffice .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/easyoffice-graal .
 #
 # Then run the container using:
 #
