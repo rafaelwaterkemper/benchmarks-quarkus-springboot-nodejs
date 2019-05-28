@@ -1,10 +1,11 @@
 var Person = require('../model/Person')
 
-let people = []
+let people = [new Person('Rafael', 21, '21/07/1996')]
 
 class PersonController {
     
     async findAll (req, res) {
+        console.log(new Date())
         return res.json(people)
     }
     

@@ -8,9 +8,8 @@ server.use(cors());
 server.use(express.json())
 server.use(routes)
 
-server.listen(3333, () => {
-    console.log("Listening on port 3333")
-    process.exit();
+server.listen(8080, () => {
+    console.log("Listening on port 8080")
 });
 
 
