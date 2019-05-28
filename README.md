@@ -8,9 +8,9 @@ Tests went running on minikube, at Ubuntu 18.04.
 
 ## Config VM minikube:
 
-`CPUs`:
+`CPUs`: 4
 
-`RAM`:
+`RAM`: 8GB
 
 ## Results
 
